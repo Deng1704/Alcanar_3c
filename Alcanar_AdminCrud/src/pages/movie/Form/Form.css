@@ -1,0 +1,28 @@
+
+.searched-movie {
+  max-height: 200px;
+  overflow-y: auto;
+}
+.search-container p:hover {
+  background-color: lightblue;
+}
+
+.poster-image {
+  width: 150px;
+  height: auto;
+}
+button{
+  cursor: pointer;
+}
+.container {
+  overflow: auto;
+}
+.btn{
+background-color: #00BFFF;
+width: 70px;
+}
+.cancel{
+  width: 70px;
+  cursor: pointer;
+  background-color: red;
+}

@@ -1,0 +1,84 @@
+.view-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212; /* Dark theme like Netflix */
+  }
+  
+  .movie-banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .banner-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+  }
+  
+  .movie-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .movie-details {
+    padding: 20px;
+  }
+  
+  .movie-overview {
+    width: 800px;
+    margin: 0 auto; /* Centers the overview horizontally */
+    font-size: 1rem; /* Optional: Adjusts the font size */
+    line-height: 1.5; /* Optional: Improves readability */
+    text-align: justify; /* Optional: Makes the text aligned for better readability */
+  }
+  
+  
+  .section {
+    margin: 20px 0;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cast-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cast-list li {
+    margin: 5px 0;
+  }
+  
+  .video-gallery {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .video-gallery video {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #fff;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .photo-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #fff;
+  }
+  

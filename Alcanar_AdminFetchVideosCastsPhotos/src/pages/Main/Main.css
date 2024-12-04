@@ -1,0 +1,50 @@
+.Main .container {
+  display: flex;
+  width: 100vw;
+}
+
+.Main .container .outlet {
+  flex-grow: 3;
+  padding: 1rem;
+}
+
+.Main .container .navigation {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: #333;
+  color: #fcfcfc;
+  width: 180px;
+  border-right: 3px #1d1c1b solid;
+  padding-top: 40px;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.Main .container .navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Main .container .navigation ul li {
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+.Main .container .navigation ul li.active,
+.Main .container .navigation ul li:hover {
+  background: #ac1b1b;
+}
+
+.Main .container .navigation ul li a {
+  text-decoration: none;
+  color: #fcfcfc;
+  display: block;
+  padding: 10px;
+}
+
+.Main .container .navigation ul li.logout {
+  cursor: pointer;
+  margin-top: auto;
+}

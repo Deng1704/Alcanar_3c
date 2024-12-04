@@ -1,0 +1,116 @@
+.Login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('wallpaperflare.com_wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-container {
+  width: 320px;
+  border-radius: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 2rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+  color: rgba(243, 244, 246, 1);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.main-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensures the form-container stretches fully inside the main container */
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content within each group */
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%; /* Ensures consistent layout */
+}
+
+.form-group label {
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-group input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  outline: none;
+  width: 100%; /* Ensures consistent width */
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  border: 1px solid #ff4f81; /* Matches button hover effect */
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.submit-container {
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  background: linear-gradient(to right, #ff3b6b, #ff8a65);
+  padding: 0.9rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0px 3px 8px rgba(255, 59, 107, 0.5);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #ff1744, #ff616f);
+  transform: translateY(-2px);
+}
+
+.register-container {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #ddd;
+  text-align: center;
+}
+
+.register-container a {
+  color: #ff4f81;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-container a:hover {
+  text-decoration: underline;
+  color: #ff8a65;
+}

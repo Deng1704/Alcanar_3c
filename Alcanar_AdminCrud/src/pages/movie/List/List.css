@@ -1,0 +1,47 @@
+body {
+  background: #ffffff;
+}
+
+.lists-container {
+  width: 100%;
+  display: flex;
+  color: #000000;
+  flex-direction: column;
+}
+.create-container {
+  align-self: flex-end;
+  margin: 1rem 0;
+}
+.table-container,
+.movie-lists {
+  width: 100%;
+}
+
+.table-container {
+  text-align: center;
+}
+
+button {
+  width: 70px;
+  color: white;
+  margin-left: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.delete {
+  background-color: #FF4D4D;
+}
+
+.edit {
+  background-color: #2196F3;
+}
+
+.create {
+  background-color: #4CAF50;
+  width: 100px;
+}
+.tile-cell{
+  text-align: justify;
+}
